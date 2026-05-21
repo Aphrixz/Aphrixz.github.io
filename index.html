@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haris Faruqi — CS & Engineering</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">HF</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="about">
+    <div class="hero-inner">
+      <p class="hero-tag">Computer Science & Engineering @ UC Merced</p>
+      <h1>Haris<br>Faruqi.</h1>
+      <p class="hero-sub">
+        2nd-year CS student interested in cybersecurity, AI/ML, and systems programming.
+        I build things — from packet analyzers to neural network pipelines to 2D games.
+      </p>
+      <div class="hero-links">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="Haris_Faruqi_Resume_General.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-decoration" aria-hidden="true">
+      <div class="deco-grid"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS BAR -->
+  <section class="skills-bar">
+    <div class="skills-inner">
+      <span class="skills-label">Skills</span>
+      <div class="skills-list">
+        <span>Python</span>
+        <span>C++</span>
+        <span>Java</span>
+        <span>C</span>
+        <span>HTML / CSS</span>
+        <span>MIPS Assembly</span>
+        <span>Git / GitHub</span>
+        <span>scikit-learn</span>
+        <span>Scapy</span>
+        <span>Godot</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card featured">
+          <div class="card-top">
+            <span class="card-tag">Python · scikit-learn</span>
+            <span class="card-badge">ML</span>
+          </div>
+          <h3>ML Classifier with Noise Robustness Testing</h3>
+          <p>Generated 4D synthetic clusters, applied PCA for dimensionality reduction, and built a logistic regression pipeline. Measured accuracy degradation under Gaussian noise on the test set.</p>
+          <div class="card-footer">
+            <span class="card-course">COGS 103</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-tag">Python · Deep Learning</span>
+            <span class="card-badge">ML</span>
+          </div>
+          <h3>CNN Filter Study</h3>
+          <p>Explored how convolutional filters extract features from images. Experimented with different filter configurations to visualize feature maps and understand CNN perception.</p>
+          <div class="card-footer">
+            <span class="card-course">COGS 103</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-tag">Python · Scapy</span>
+            <span class="card-badge">Security</span>
+          </div>
+          <h3>Network Packet Analyzer</h3>
+          <p>Live packet capture tool that logs IPs, protocols, and ports. Detects possible port scans and exports a summary CSV. Built with cybersecurity research in mind.</p>
+          <div class="card-footer">
+            <a href="https://github.com/harisfaruqi" class="card-link" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-tag">C++</span>
+            <span class="card-badge">Systems</span>
+          </div>
+          <h3>Flight Plan Calculator</h3>
+          <p>A flight route calculator with a custom user interface built in C++, handling user input, route calculations, and real-time output display.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-tag">MIPS Assembly</span>
+            <span class="card-badge">Low-Level</span>
+          </div>
+          <h3>Recursive Calculator</h3>
+          <p>Recursive calculator implemented in MIPS assembly, managing stack frames, register allocation, and low-level control flow by hand.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-tag">C</span>
+            <span class="card-badge">Algorithms</span>
+          </div>
+          <h3>Word Frequency Algorithm</h3>
+          <p>Parses input text and computes word frequencies using custom string manipulation and data structures in C.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-tag">C++</span>
+            <span class="card-badge">Game</span>
+          </div>
+          <h3>Wordle Recreation</h3>
+          <p>Full recreation of the Wordle word game with game logic, win/loss tracking, and letter-matching feedback mechanics.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-tag">Godot Engine</span>
+            <span class="card-badge">Game</span>
+          </div>
+          <h3>2D Game Design</h3>
+          <p>Designed and developed a 2D game including game logic, scene structure, and player mechanics using the Godot game engine.</p>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-tag">HTML / CSS</span>
+            <span class="card-badge">Web</span>
+          </div>
+          <h3>Personal Website</h3>
+          <p>This site — designed and built from scratch with clean layout, responsive design, and no frameworks.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section alt" id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-date">May 2025 – Aug 2025</div>
+          <div class="timeline-content">
+            <h3>Game Master</h3>
+            <p class="timeline-org">Red Door Escape Room</p>
+            <p>Hosted 100+ games per week. Troubleshot technical issues in real time and consistently earned high guest satisfaction scores.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">Dec 2023 – April 2024</div>
+          <div class="timeline-content">
+            <h3>Hackathon Organizer</h3>
+            <p class="timeline-org">AstroHacks, Irvine</p>
+            <p>Organized a 65+ participant hackathon on tech and space exploration. Raised $5,000+ in sponsorships and managed all 12-hour event logistics.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-date">May 2022 – June 2024</div>
+          <div class="timeline-content">
+            <h3>Link Crew Captain / President</h3>
+            <p class="timeline-org">High School Leadership Initiative</p>
+            <p>Trained ~100 student leaders and oversaw freshman orientation programming for 200+ incoming students.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="contact-sub">I'm open to internships, research opportunities, and cool projects.</p>
+      <div class="contact-links">
+        <a href="mailto:hf.visions@gmail.com" class="btn btn-primary">hf.visions@gmail.com</a>
+        <a href="https://github.com/harisfaruqi" class="btn btn-outline" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built by Haris Faruqi · UC Merced CS&E</p>
+  </footer>
+
+</body>
+</html>
